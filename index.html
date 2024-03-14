@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+           <title>My first form</title>
+
+    </head>
+    <body>
+     <table>
+       <div style="border-style: solid;">
+        <div class="header" style="border-style: solid;"> Payment form example</div>
+        <form>
+            <div class="let">
+                <div><p>Some fields are missing</p></div>
+                <div class="container">
+                    <div><label for="card"> Card # </label>
+                         <input type="number" id="card" placeholder="XXXXXXXXXXXXXXXX">
+                    
+                    <label for="cvc"> CVC # </label>
+                         <input type="number" id="cvc" placeholder="0000">
+                    
+                    <label for="amount"> Amount </label>
+                         <input type="number" id="amount" placeholder="Amount">
+                    </div>
+                </div>
+                  <br>
+                <div>
+                  <div><label for="fname"> First Name </label>
+                       <input type="text" id="fname" >
+                    <div>
+                        <div><label for="city"> City </label>
+                             <input type="text" id="city">
+                        </div>
+                        <div>
+                            <label for="accept"> We accept: </label>
+                            <div>
+                               <i class="fa-brands fa-cc-mastercard"></i>
+                            </div>
+
+                        </div>
+                  </div>
+                  <div>
+                    <div><label for="lname"> Last Name </label>
+                         <input type="text" id="lname">
+                    </div>
+                    <div>
+                    <div><label for="state"> State </label>
+                         <input type="text" id="state" placeholder="Pick a state">
+                    
+                    <label for="pcode"> Postal Code </label>
+                         <input type="text" id="pcode">
+                    </div>
+                       <div>
+                        <label for="message"> Message </label>
+                        <textarea id="message" rows="6" cols="30"></textarea>
+                        <div id="message"> Add any notes here </div>
+                        
+                       </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <button>Cancel</button>
+                    <button>Send</button>
+                  </div>
+
+                </div>
+            </div>
+        </form>
+
+       </div>
+      </table>
+      <script src="https://kit.fontawesome.com/ff577d1cf7.js" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+let p{
+   color: red;
+   border:10px;
+   border-color: black;
+
+}
+
+body{
+   border-style: solid;
+   border-color: black;
+}
